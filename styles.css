@@ -1,0 +1,53 @@
+.button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #8fd263; /* Green */
+  color: white;
+}
+
+body,
+html {
+  background-color: white;
+  height: 100%;
+  font-family: monospace;
+}
+
+#videos {
+  background-color: ;
+  position: relative;
+  top: 30px;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#subscriber {
+  position: absolute;
+  width: 360px;
+  height: 240px;
+  left: 400px;
+  z-index: 100;
+  border: 3px solid grey;
+  border-radius: 3px;
+}
+
+#publisher {
+  position: relative;
+  width: 360px;
+  height: 240px;
+  left: 10px;
+  z-index: 100;
+  border: 3px solid grey;
+  border-radius: 3px;
+}
